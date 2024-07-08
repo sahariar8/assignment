@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.profile-card {
+    width: 350px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.profile-img {
+    margin-top: 20px;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+   border-radius: 50%;
+}
+
+.profile-img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.profile-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.occupation {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4444449f;
+}
+
+.contact {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 5px;
+}
+.profile-actions {
+    width: 100%;
+   
+}
+
+.row {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.action-item {
+    flex: 1;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #72737493;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.row1{
+    margin-left: 25PX;
+    margin-right: 25PX;
+    display: flex;
+    justify-content: space-evenly;
+}
+.num{
+    margin-top: -10px;
+    color: #666;
+}
+
+
